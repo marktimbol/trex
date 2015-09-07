@@ -33,49 +33,30 @@
 							</form>
 						</div>
 
-<!-- 						<div class="col-md-6">
-							<address>
-								<div class="row">
-									<div class="col-md-1">
-										<i class="fa fa-map-marker"></i>
-									</div>
-
-									<div class="col-md-11">
-										<p class="">
-										Office C1201 - Burj Al Salam, Sheikh Zayed Road, Dubai, United Arab Emirates
-										</p>
-									</div>
-
-									<div class="col-md-1">
-										<i class="fa fa-phone"></i>
-									</div>
-
-									<div class="col-md-11">
-										<p class="">
-											<a href="tel:+971 4 331 3103">+971 4 331 3103</a>
-										</p>
-									</div>	
-
-									<div class="col-md-1">
-										<i class="fa fa-envelope"></i>
-									</div>
-
-									<div class="col-md-11">
-										<p class="">
-											<a href="mailto:sales@trex.ae">sales@trex.ae</a>
-										</p>
-									</div>	
+						<div class="col-md-6">
+							<div class="card">
+								<div class="card-image">
+									<img src="public/images/contact-us.png" alt="Contact Us" class="img-responsive" />
+									<span class="card-title">Contact Us</span>
 								</div>
 
-								<br /><br />
-								
-								<p class="social-icons">
-									<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-									<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-									<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-								</p>
-							</address>
-						</div> -->
+								<div class="card-content">
+									<address>
+										Office C1201 - Burj Al Salam, Sheikh Zayed Road, Dubai, UAE
+										<p class="lead theme-color">+971 4 331 3103</p>
+										<a href="mailto:sales@trex.ae">sales@trex.ae</a>
+									</address>
+								</div>
+
+								<div class="card-action">
+									<p class="social-icons">
+										<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+										<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+										<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+									</p>
+								</div>
+							</div>	
+						</div>
 					</div>
 				</div>
 			</div>
