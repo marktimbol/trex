@@ -1,0 +1,215 @@
+$mainColor: #ed2623;
+
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+
+.theme-color {
+	color: $mainColor;
+}
+
+.trex-title {
+	color: $mainColor;
+	font-weight: 300;
+}
+
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+
+body {
+	font-size: 14px;
+	font-family: 'Lato';
+	background: url('../images/bg.png') bottom 190px right -100px no-repeat;
+}
+
+.top-nav-container {
+	background: $mainColor;
+	padding: 10px 0;
+	overflow: hidden;
+
+	nav {
+		ul {
+			li {
+				float: left;
+				margin-right: 20px;
+				color: white;
+				i {
+					color: white;
+				}
+				a {
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+header {
+	.top-nav-container {
+		background: #fcfcfc;
+		border-bottom: 1px solid #eee;
+		padding: 10px 0;
+		overflow: hidden;
+	}
+	nav {
+
+		&.top-nav {
+			ul {
+				li {
+					float: left;
+					margin-right: 20px;
+					//font-size: 12px;
+
+					i {
+						color: $mainColor;
+						margin-right: 10px;
+					}
+
+					a {
+						color: #333;
+						text-decoration: none;
+						&:hover {
+							color: $mainColor;
+						}
+					}
+				}
+			}
+		}
+
+		&.main-nav {
+			margin-top: 40px;
+			ul {
+				li {
+					float: left;
+					margin-right: 10px;
+					a {
+						color: #333;
+						text-decoration: none;
+						padding: 3px 8px;
+						&:hover {
+							color: $mainColor;
+							border: 1px solid $mainColor;
+							border-radius: 3px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+.services-container {
+
+	background: $mainColor;
+	padding-bottom: 20px;
+	.services {
+		margin-top: -100px;
+
+		// figure {
+		// 	background: white;
+		// 	padding-bottom: 40px;
+		// 	position: relative;
+		// 	height: 361px; //temp
+		// 	img {
+
+		// 	}
+
+		// 	figcaption {
+		// 		padding: 0 20px;
+		// 		h3 {
+		// 			font-size: 18px;
+		// 			text-transform: uppercase;
+		// 		}
+
+		// 		p {
+		// 			font-size: 14px;
+		// 			&.read-more {
+		// 				a {
+		// 					bottom: 10px;
+		// 					right: 10px;
+		// 					position: absolute;
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
+	}
+
+	.request-a-quote {
+		margin-top: 30px;
+	}
+}
+
+.page {
+	margin-top: 40px;
+
+	.trex-title {
+		margin-top: 0;
+	}
+
+	&.contact-us {
+		address {
+			a {
+				color: #333;
+			}
+
+			.social-icons {
+				a {
+					margin-right: 10px;
+				}
+				
+			}
+		}
+	}
+}
+
+footer {
+	.trex-title {
+		border-bottom: 1px solid #ddd;
+		padding-bottom:	10px;
+	}
+	.contact-us {
+		p {
+			margin-bottom: 0;
+		}
+
+		.social-icons {
+			margin-top: 10px;
+			a {
+				margin-right: 10px;
+				color: #333;
+				&:hover {
+					color: $mainColor;
+				}
+			}
+		}
+	}
+}
+
+.footer-bottom {
+	background: #333 url('../images/map-dark.png') top right no-repeat;
+	overflow: hidden;
+	padding: 20px;
+	margin-top: 20px;
+	h3 {
+		margin-top: 40px;
+		font-weight: 300;
+	}
+	h3, p {
+		color: white;
+	}
+}
+
+@import 'cards';
