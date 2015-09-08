@@ -36,24 +36,19 @@
 						<div class="col-md-6">
 							<div class="card">
 								<div class="card-image">
-									<img src="public/images/contact-us.png" alt="Contact Us" class="img-responsive" />
-									<span class="card-title">Contact Us</span>
+									<img src="public/images/contact-us.jpg" alt="Contact Us" class="img-responsive" />
+							
 								</div>
 
 								<div class="card-content">
 									<address>
-										Office C1201 - Burj Al Salam, Sheikh Zayed Road, Dubai, UAE
-										<p class="lead theme-color">+971 4 331 3103</p>
-										<a href="mailto:sales@trex.ae">sales@trex.ae</a>
+										<p class="lead">Office C1201 - Burj Al Salam, Sheikh Zayed Road<br />Dubai, United Arab Emirates</p>
 									</address>
 								</div>
 
 								<div class="card-action">
-									<p class="social-icons">
-										<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-										<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-										<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-									</p>
+									<p class="lead float-left"><i class="fa fa-phone"></i> +971 4 331 3103</p>
+									<p class="lead float-right"><a href="mailto:sales@trex.ae"><i class="fa fa-envelope"></i> sales@trex.ae</a></p>
 								</div>
 							</div>	
 						</div>

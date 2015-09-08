@@ -55,23 +55,15 @@ $middleEastCountries = [
 
 	</div>
 
-	<div class="container">
+	<div class="container main-container">
 		<div class="row">
 			<div class="col-md-12">
 				<header>
-<!-- 					<div class="top-nav-container">
-						<nav class="top-nav float-right">
-							<ul>
-								<li><i class="fa fa-phone"></i> +971 4 331 3103</li>
-								<li><i class="fa fa-envelope"></i> <a href="mailto:sales@trex.ae">sales@trex.ae</a></li>
-							</ul>
-						</nav>
-					</div> -->
 					<div class="row">
 						<div class="col-md-3">
 							<h1 class="logo">
-								<a href="/">
-									<img src="/public/images/logo.png" alt="TREX General Trading LLC" title="TREX General Trading LLC" class="img-responsive" />
+								<a href="index.php">
+									<img src="public/images/logo.png" alt="TREX General Trading LLC" title="TREX General Trading LLC" class="img-responsive" />
 								</a>								
 							</h1>
 						</div>
@@ -79,7 +71,7 @@ $middleEastCountries = [
 						<div class="col-md-9">
 							<nav class="main-nav float-right">
 								<ul>
-									<li><a href="/">Home</a></li>
+									<li><a href="index.php" class="active">Home</a></li>
 									<li><a href="distribution.php">Distribution</a></li>
 									<li><a href="contact-us.php">Contact Us</a></li>
 								</ul>

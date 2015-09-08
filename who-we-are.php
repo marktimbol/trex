@@ -3,6 +3,12 @@
 	<div class="row page">
 		<div class="col-md-12">
 			<div class="row">
+				<div class="col-md-12">
+					<ol class="breadcrumb">
+						<li><a href="index.php">Home</a></li>
+						<li><a href="#">Who we are?</a></li>
+					</ol>
+				</div>
 				<div class="col-md-4">
 					<img src="public/images/partners-subpage.png" alt="" title="" class="img-responsive" />
 				</div>

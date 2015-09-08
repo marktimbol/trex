@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="main-slideshow">
-				<img src="public/images/slide01.jpg" alt="Slide" title="Slide" class="img-responsive" />
+				<img src="public/images/slide2.jpg" alt="Slide" title="Slide" class="img-responsive" />
 			</div>
 		</div>
 	</div>
@@ -25,7 +25,7 @@
 
 							<div class="card-action">
 								<p class="read-more">
-									<a href="who-we-are.php" class="btn btn-sm btn-danger">Read more</a>
+									<a href="who-we-are.php" class="btn btn-sm btn-danger waves-effect waves-light">Read more</a>
 								</p>
 							</div>
 						</div>
@@ -70,10 +70,9 @@
 					</div>
 				</div>
 			</div>	
-
-			<div class="col-md-12">
+<!-- 			<div class="col-md-12">
 				<p class="text-center request-a-quote"><a href="#" class="btn btn-default btn-lg">Request a quote</a></p>
-			</div>
+			</div> -->
 		</div>
 	</div>
 

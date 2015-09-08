@@ -1,5 +1,11 @@
 $mainColor: #ed2623;
 
+body {
+	font-size: 14px;
+	font-family: 'Lato';
+	background: url('../images/bg.png') bottom 190px right -100px no-repeat;
+}
+
 .float-right {
 	float: right;
 }
@@ -24,13 +30,6 @@ a {
 
 ul {
 	list-style: none;
-}
-
-
-body {
-	font-size: 14px;
-	font-family: 'Lato';
-	background: url('../images/bg.png') bottom 190px right -100px no-repeat;
 }
 
 .top-nav-container {
@@ -102,6 +101,11 @@ header {
 							border: 1px solid $mainColor;
 							border-radius: 3px;
 						}
+						&.active {
+							color: $mainColor;
+							border: 1px solid $mainColor;
+							border-radius: 3px;							
+						}
 					}
 				}
 			}
@@ -110,41 +114,22 @@ header {
 
 }
 
+// .main-container {
+// 	min-height: 100%;
+// 	//margin-bottom: -190px; 
+// 	&:after {
+// 		content: "";
+// 		display: block;		
+// 		height: -190px; 
+// 	}
+// }
+
 .services-container {
 
 	background: $mainColor;
 	padding-bottom: 20px;
 	.services {
 		margin-top: -100px;
-
-		// figure {
-		// 	background: white;
-		// 	padding-bottom: 40px;
-		// 	position: relative;
-		// 	height: 361px; //temp
-		// 	img {
-
-		// 	}
-
-		// 	figcaption {
-		// 		padding: 0 20px;
-		// 		h3 {
-		// 			font-size: 18px;
-		// 			text-transform: uppercase;
-		// 		}
-
-		// 		p {
-		// 			font-size: 14px;
-		// 			&.read-more {
-		// 				a {
-		// 					bottom: 10px;
-		// 					right: 10px;
-		// 					position: absolute;
-		// 				}
-		// 			}
-		// 		}
-		// 	}
-		// }
 	}
 
 	.request-a-quote {
@@ -160,56 +145,62 @@ header {
 	}
 
 	&.contact-us {
-		address {
-			a {
-				color: #333;
-			}
 
-			.social-icons {
+		.card {
+			.card-action {
 				a {
-					margin-right: 10px;
+					color: #333;
 				}
-				
 			}
+		}
+	}
+
+	&.alliances {
+		.card {
+			.card-title {
+				background: none;
+			}
+		}
+	}
+}
+
+.breadcrumb {
+	li {
+		a {
+			color: #333;
 		}
 	}
 }
 
 footer {
-	.trex-title {
-		border-bottom: 1px solid #ddd;
-		padding-bottom:	10px;
-	}
-	.contact-us {
-		p {
-			margin-bottom: 0;
-		}
-
-		.social-icons {
-			margin-top: 10px;
-			a {
-				margin-right: 10px;
-				color: #333;
-				&:hover {
-					color: $mainColor;
-				}
-			}
-		}
-	}
-}
-
-.footer-bottom {
 	background: #333 url('../images/map-dark.png') top right no-repeat;
 	overflow: hidden;
 	padding: 20px;
 	margin-top: 20px;
 	h3 {
+		color: white;
 		margin-top: 40px;
 		font-weight: 300;
 	}
-	h3, p {
+	p {
 		color: white;
+		&.copyright {
+			color: white;
+		}
+		&.social-icons {
+			text-align: right;
+			margin-top: 60px;
+			a {
+				margin-right: 10px;
+				color: white;
+				&:hover {
+					color: $mainColor;
+				}
+			}	
+		}
 	}
 }
 
-@import 'cards';
+@import 'components/cards';
+@import 'components/waves';
+@import 'components/media-queries';

@@ -37,7 +37,6 @@ gulp.task('js_vendor', function() {
 });
 
 gulp.task('default', function() {
-	gulp.watch('resources/assets/sass/*.scss', ['sass', 'styles_vendor', 'js_vendor']);
+	gulp.watch(['resources/assets/sass/*.scss', 'resources/assets/sass/components/*.scss'], ['sass', 'styles_vendor', 'js_vendor']);
 	gulp.watch('resources/assets/js/app.js', ['scripts']);
-
 });
